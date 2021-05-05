@@ -1,0 +1,27 @@
+<div class="bulk-page">
+    <% @product.each do |images| %>
+        <div class="column is-one-quarter">
+            <% images.bulk.each do |images| %>
+                <div class="card mb-5">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <%= image_tag images%>
+                        </figure>
+                    </div>    
+                    <footer class="card-footer">
+                        <%= link_to "Download", images, download: images.filename,  class: "card-footer-item bulk" %>
+                    </footer>  
+                </div>
+            <%end %>
+        </div>
+    <% end %>
+</div>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+<div class="bulk-page">
+<% @product.each do |product| %>
+  <div class="column is-one-quarter">
+    <div class="card" >
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <div class="bulk-page">
+            <div class="bulk">
+                <%= image_tag product.bulk.first, class: "bulk-show-products" %>
+            </div>
+          </div>  
+        </figure>
+      </div>
+        <div class="card-content">
+          <header class="card-header ">
+            <p class="card-header-title">
+              <%= product.name %>
+            </p>
+          </header>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <ul>
+              <p><span><%= number_to_currency(product.price) %></span></p>
+              <p><span><%= product.description %></span></p>
+            </ul>  
+          </div>
+        </div>
+      <footer class="card-footer">
+        <%= link_to 'Show' , product, class: "card-footer-item" %>
+        <%= link_to 'Add images', edit_product_path(product), class: "card-footer-item" %>
+      </footer>
+    </div>
+  </div>
+
+<% end %>
+
+<div class="columns is-centered mt-6" >
+    <%= link_to "View all images", display_images_index_path, class: "button is-link is-outlined is-centered"%>
+</div>
+
+</div>
+
+
+

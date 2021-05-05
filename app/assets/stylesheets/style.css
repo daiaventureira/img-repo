@@ -1,0 +1,21 @@
+.bulk-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5.2rem;
+}
+.bulk {
+  max-width: 350px;
+  height: auto;
+  object-fit: cover;
+}
+
+.bulk-show-products {
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+}
+
+.input {
+  width: 30vw;
+}

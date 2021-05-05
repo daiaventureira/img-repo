@@ -1,0 +1,29 @@
+<%= form_with model: @product do |form| %>
+  
+  
+  <div class="field">
+    <label class="label"><%= form.label :name %> </label>
+    <%= form.text_field :name, class: "input" %>
+  </div>
+  <div class="field">
+    <label class="label"><%= form.label :description %></label>
+    <%= form.text_field :description, class: "input" %>
+  </div>
+  <div class="field">
+    <label class="label"><%= form.label :price %></label>
+    <%= form.number_field :price, class: "input" %>
+  </div>
+  <div class="field">
+    <label class="label"><%= form.label :image_url %></label>
+    <%= form.text_field :image_url, class: "input" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :bulk %>
+    <%= form.file_field :bulk, multiple: true %> 
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,10 @@
+<%= form_with model: @product do |form|%>
+    <div class="field">
+        <%= form.label :avatar %>
+        <%= form.file_field :avatar %>
+    </div>
+    <div class="field">
+        <%= form.label :bulk %>
+        <%= form.file_field :bulk, multiple: true %>
+    </div>
+ <% end %>
