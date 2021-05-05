@@ -44,10 +44,10 @@ class ProductsController < ApplicationController
 
     private 
     def product_update_params 
-        params.require(:product).permit(:name, :image_url, :price, :description, :avatar)
+        params.require(:product).permit( :description, :avatar)
     end
     def product_params 
-        params.require(:product).permit(:name, :image_url, :price, :description, :avatar, bulk: [])
+        params.require(:product).permit(:description,  bulk: [])
     end
 
 end
