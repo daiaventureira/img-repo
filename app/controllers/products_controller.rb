@@ -1,4 +1,6 @@
 class ProductsController < ApplicationController 
+
+   
     def index 
         @product = Product.all 
     end
@@ -34,6 +36,7 @@ class ProductsController < ApplicationController
             if params[:product][:bulk].present?
                 params[:product][:bulk].each do |image|
                 product.bulk.attach(image)
+
               end
             end
             redirect_to '/products', notice:'Product added'
