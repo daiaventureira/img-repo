@@ -7,11 +7,10 @@
             <%= image_tag bulk, class: "bulk-show-products" %>
           </figure>
         </div>    
-          <footer class="card-footer">
-            <%= link_to "Download", rails_blob_path(bulk, disposition: "attachment"), class: "card-footer-item bulk" %>
-
-          </footer>  
-          </div>
+        <footer class="card-footer">
+          <%= link_to "Download", rails_blob_path(bulk, disposition: "attachment"), class: "card-footer-item bulk" %>
+        </footer>  
+      </div>
     </div>
   <% end %>
 </div>
