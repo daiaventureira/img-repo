@@ -1,3 +1,6 @@
+.content {
+  padding: 2rem;
+}
 .bulk-page {
   display: flex;
   justify-content: center;
@@ -66,4 +69,9 @@
   align-items: center;
   flex-direction: column;
   border: 1px solid black;
+}
+
+.sign {
+  margin-top: 2rem;
+  width: 80vw;
 }

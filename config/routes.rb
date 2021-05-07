@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get "/", to: "products#index"
+  get "/", to: "main#index"
 
   get 'display_images/index'
   get 'display_images/show'
