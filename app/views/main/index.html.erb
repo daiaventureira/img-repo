@@ -1,1 +1,4 @@
-<h1>Hello</h1><%= Current.user.email%>
+    <% if Current.user%>
+        <h1>Hello</h1><%= Current.user.email%>
+    <%end%> 
+
