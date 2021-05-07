@@ -1,12 +1,15 @@
+<%= render 'navbar' %>
+
 <div class="bulk-page">
 <% @product.each do |product| %>
+  <% if product.bulk.attached? %>
   <div class="column is-one-quarter">
     <div class="card" >
       <div class="card-image">
         <figure class="image is-4by3">
           <div class="bulk-page">
             <div class="bulk">
-                <%= image_tag product.bulk.first, class: "bulk-show-products" %>
+                  <%= image_tag product.bulk.first, class: "bulk-show-products" %>
             </div>
           </div>  
         </figure>
@@ -21,15 +24,15 @@
       <footer class="card-footer">
         <%= link_to 'Show' , product, class: "card-footer-item" %>
         <%= link_to 'Add images', edit_product_path(product), class: "card-footer-item" %>
+        <%= link_to 'Delete', 
+             product_path(product), 
+              method: :delete, class: "card-footer-item bulk"
+        %>
       </footer>
     </div>
   </div>
-
+  <% end%>
 <% end %>
-
-<div class="columns is-centered mt-6" >
-    <%= link_to "View all images", display_images_index_path, class: "button is-link is-outlined is-centered"%>
-</div>
 
 </div>
 

@@ -1,24 +1,23 @@
+<%= render "navbar"%>
 <div class="bulk-page">
-    <% @product.each do |images| %>
-        <div class="column is-one-quarter">
+<% @product.each do |images| %>
             <% images.bulk.each do |images| %>
-                <div class="card mb-5">
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <%= image_tag images%>
-                        </figure>
-                    </div>    
-                    <footer class="card-footer">
-                        <%= link_to "Download", rails_blob_path(images, disposition: "attachment"), class: "card-footer-item bulk" %>
-                    </footer>  
+                <div class="bulk-card">
+                        <%= image_tag images, class:"bulk-image"%>
+                        <footer class="bulk-buttons">
+                            <%= link_to "Download", rails_blob_path(images, disposition: "attachment"), class: "button is-white button-download"%>
+                                <%= link_to 'Delete', 
+                                    delete_image_product_url(images.id), 
+                                    method: :delete,class: "button is-white button-delete"
+                                %>
+                        </footer>                       
                 </div>
             <%end %>
-        </div>
     <% end %>
 </div>
-
-
-
+<div class="columns is-centered mt-6 " >
+    <%= link_to 'Back', products_path, class: "button is-link is-outlined is-centered" %>
+</div>
 
 
 

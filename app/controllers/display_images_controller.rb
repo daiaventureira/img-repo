@@ -12,7 +12,15 @@ class DisplayImagesController < ApplicationController
         @product = Product.find(params[:id])
     end
 
-    def delete
-        @product = Product.find_by(params[:id])
+    def destroy
+        @product = Product.find(params[:id])
+        @product.destroy
+        redirect_to "/products"
+    end 
+
+    def delete_image 
+        attachment = ActiveStorage::Attachment.find(params[:id])
+        attachment.purge
+        redirect_to "/products" 
     end 
 end
