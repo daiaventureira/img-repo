@@ -1,0 +1,10 @@
+
+
+Hi <%= params[:user].email%>
+
+Are you trying to reset your password? 
+
+Click here:
+<%= password_reset_edit_url(token: @token)  %>
+
+If you re not the owner ignore it.
