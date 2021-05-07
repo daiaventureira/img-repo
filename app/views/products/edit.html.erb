@@ -1,14 +1,12 @@
-<h1>Editing product</h1>
+<div class="form">
+    <%= render 'form', product: @product %>
 
-<%= render 'form', product: @product %>
 
-
-<div class="columns is-centered mt-6" >
-    <%= link_to 'See images', @product, class: "button is-link is-outlined is-centered" %>
+    <div class="columns is-centered mt-6" >
+        <%= link_to 'See images', @product, class: "button is-link is-outlined is-centered" %>
+    </div>
+    <div class="columns is-centered mt-6" >
+        <%= link_to 'Back', products_path, class: "button is-link is-outlined is-centered" %>
+    </div>
 </div>
-
-<div class="columns is-centered mt-6" >
-    <%= link_to 'Back', products_path, class: "button is-link is-outlined is-centered" %>
-</div>
-
  

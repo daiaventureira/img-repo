@@ -12,6 +12,12 @@
   margin: 1rem;
 }
 
+@media (max-width: 992px) {
+  .bulk-card {
+    width: 80vw;
+  }
+}
+
 .bulk-image {
   display: block;
   width: 100%;
@@ -30,14 +36,23 @@
   padding: 1rem;
 }
 
+@media (max-width: 992px) {
+  .bulk-buttons {
+    opacity: 1;
+  }
+}
+
 .bulk-buttons:hover,
 .bulk-image:hover {
   opacity: 1;
 }
 
-.button-download:hover,
-.button-delete:hover {
-  background-color: rgb(73, 51, 76);
+@media (max-width: 992px) {
+  .button-download:hover,
+  .button-delete:hover {
+    outline: none;
+    box-shadow: 0 0 0 3px lightskyblue;
+  }
 }
 .button-delete {
   margin-left: 4px;
