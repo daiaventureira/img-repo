@@ -22,7 +22,7 @@ class ProductsController < ApplicationController
     def create
         @product = Product.new(product_params)
         if @product.save
-            redirect_to '/products', notice:'Product created to Cart'
+            redirect_to '/products', notice:'Image added'
         else
             render :new
         end 
@@ -54,11 +54,9 @@ class ProductsController < ApplicationController
           end
       end
 
-      
-
     private 
     def product_update_params 
-        params.require(:product).permit( :description, :avatar)
+        params.require(:product).permit( :description)
     end
     def product_params 
         params.require(:product).permit(:description,  bulk: [])
