@@ -68,7 +68,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
+}
+
+@media (max-width: 992px) {
+  .navbar-buttons {
+    display: flex;
+  }
 }
 
 .sign {
