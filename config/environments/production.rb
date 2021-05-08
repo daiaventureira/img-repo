@@ -125,8 +125,8 @@ config.action_mailer.default_url_options = { host: "https://img-repo-daiane.hero
 config.action_mailer.smtp_settings = {
   :address              => "smtp.gmail.com",
   :port                 => 587,
-  :user_name            => daianetest@gmail.com,
-  :password             => tbabbjtfykpuqxim,
+  :user_name            => 'daianetest@gmail.com',
+  :password             => 'tbabbjtfykpuqxim',
   :authentication       => "plain",
   :enable_starttls_auto => true
 }
