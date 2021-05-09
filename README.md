@@ -32,6 +32,12 @@ You will need to be logged in so you can access the application, you can either 
  
 The user password can be either recovered or changed.
 
+## Production 
+
+*You can see it working in production on heroku:
+
+[https://img-repo-daiane.herokuapp.com/]
+
 ## Informations
 
 * Ruby version:  ruby 3.0.0p0
