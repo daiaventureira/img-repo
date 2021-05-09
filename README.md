@@ -34,7 +34,9 @@ The user password can be either recovered or changed.
 
 ## Production 
 
-*You can see it working in production on heroku:
+*This aplication its running on production deployed on heroku
+*The images are stored on Amazon s3
+*You can see this application running clicking in the link below:
 
 [https://img-repo-daiane.herokuapp.com/]
 
