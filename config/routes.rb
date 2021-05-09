@@ -3,7 +3,6 @@ Rails.application.routes.draw do
 
   get 'display_images/index'
   get 'display_images/show'
-  delete "display_images/delete", to: "display_images#destroy"
 
   get "sign_up", to: "registrations#new"
   post "sign_up", to: "registrations#create"

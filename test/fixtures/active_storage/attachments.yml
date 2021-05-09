@@ -1,0 +1,5 @@
+attachment:
+  name: pic
+  record_type: Product
+  record_id: <%= ActiveRecord::FixtureSet.identify(:three) %>
+  blob_id: 1

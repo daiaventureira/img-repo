@@ -1,0 +1,9 @@
+blobone:
+  id: 1
+  key: "111"
+  filename: "pic.jpeg"
+  content_type: "image/jpeg"
+  service_name: test
+  metadata: nil
+  byte_size: 86580
+  checksum: "123456789012345678901234"
