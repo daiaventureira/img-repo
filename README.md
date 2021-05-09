@@ -1,6 +1,6 @@
 # Image Repository
 
-This application is an image repository built using ruby and rails and activestorage. 
+This application is an image repository built using ruby and rails and Active Storage. 
 
 ## Instalation
 
