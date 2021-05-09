@@ -10,8 +10,7 @@ class RegistrationsControllerTest < ActionDispatch::IntegrationTest
             user: {
                 password: @user
             }
-        }
-        
+        }       
         assert_equal response.code, "200"        
     end
 

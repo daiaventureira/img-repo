@@ -51,8 +51,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
                     description: "description",
                     bulk: [fixture_file_upload("pic.jpeg", "image/jpeg")]
                 }
-              }
-        
+              } 
         assert_redirected_to products_path
     end
     
