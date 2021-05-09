@@ -10,7 +10,7 @@ First you need to clone this repository to your machine. To do so, run:
 $ git clone git@github.com:daiaventureira/img-repo.git
 ```
 
-Next step is run the above command in your terminal inside your repository:
+Next step is to run the above command in your terminal inside your repository:
 
 ```bash
  $ rails new webpacker_css --webpack 
