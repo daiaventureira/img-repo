@@ -4,7 +4,7 @@ This application is an image repository built using ruby and rails and activesto
 
 ## Instalation
 
-First you need to clone this repository to your machine, to do so, run:
+First you need to clone this repository to your machine. To do so, run:
 
 ```bash
 $ git clone git@github.com:daiaventureira/img-repo.git
