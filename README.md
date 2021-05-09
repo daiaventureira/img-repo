@@ -2,7 +2,7 @@
 
 This application is an image repository built using ruby and rails and activestorage. 
 
-##Instalation
+## Instalation
 
 First you need to clone this repository to your machine, to do so, run:
 
@@ -51,9 +51,9 @@ The user password can be either recovered or changed.
 
 * How to run the test suite
 
-*This application includes models and controllers tests.
+* This application includes models and controllers tests.
 
-*Running the models tests:
+* Running the models tests:
 
 ```bash
 $ rails test:models 
