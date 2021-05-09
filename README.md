@@ -13,7 +13,7 @@ $ git clone git@github.com:daiaventureira/img-repo.git
 Next step is run the above command in your terminal inside your repository:
 
 ```bash
- img-repo git:(master) $ rails new webpacker_css --webpack 
+ $ rails new webpacker_css --webpack 
 ```
 ## Usage
 
@@ -21,7 +21,7 @@ Next step is run the above command in your terminal inside your repository:
 To run it locally run:
 
 ```bash
- img-repo git:(master) $ rails server
+ $ rails server
 ```
 
 It will open the following page:
@@ -35,6 +35,7 @@ The user password can be either recovered or changed.
 ## Informations
 
 * Ruby version:  ruby 3.0.0p0
+
 * Rails version: Rails 6.1.3.1
 
 * System dependencies
@@ -49,7 +50,6 @@ The user password can be either recovered or changed.
 
 ## Tests
 
-* How to run the test suite
 
 * This application includes models and controllers tests.
 
@@ -59,7 +59,7 @@ The user password can be either recovered or changed.
 $ rails test:models 
 ```
 
-*Running the controllers tests
+* Running the controllers tests
 
 ```bash
 $ rails test:controllers
