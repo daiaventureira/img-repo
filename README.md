@@ -11,7 +11,7 @@ The images will be public.
 
 ## Installation
 
-* First you need to clone this repository to your machine. To do so, run:
+* First you need to clone this repository to your machine. To do so, run in your terminal:
 
 ```bash
 $ git clone git@github.com:daiaventureira/img-repo.git
