@@ -58,6 +58,10 @@ On your browser type: "localhost:3000" and it will display the following page:
 
  <img width="1437" alt="Screen Shot 2021-05-09 at 10 45 54 PM" src="https://user-images.githubusercontent.com/44145146/117599687-521e9700-b118-11eb-8b7a-f48c5f4c8148.png">
 
+* If you click on "Show" button on folder, you can see the images, delete or download it.
+
+<img width="1437" alt="Screen Shot 2021-05-09 at 11 19 29 PM" src="https://user-images.githubusercontent.com/44145146/117601810-2f42b180-b11d-11eb-8041-50c86a96924a.png">
+
  
 ## Production 
 
