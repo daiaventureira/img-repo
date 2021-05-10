@@ -4,17 +4,17 @@ This application is an image repository built using Ruby On Rails and Active Sto
 
 ## Requirements
 
-I am assuming that you have ruby 3 and rails 6 installed on your machine, also you will need PostgreSql.
+* I am assuming that you have ruby 3 and rails 6 installed on your machine, also you will need PostgreSql.
 
 ## Installation
 
-First you need to clone this repository to your machine. To do so, run:
+* First you need to clone this repository to your machine. To do so, run:
 
 ```bash
 $ git clone git@github.com:daiaventureira/img-repo.git
 ```
 
-Next step is to run the above commands in your terminal inside your repository img-repo:
+* Next step is to run the above commands in your terminal inside your repository img-repo:
 
 ```bash
  $ bundle install
