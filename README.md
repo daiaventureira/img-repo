@@ -42,11 +42,11 @@ To run it locally run:
  $ rails webpacker:install
 ```
 
-On your browser type localhost:3000 and it will display the following page:
+On your browser type: "localhost:3000" and it will display the following page:
 
 <img width="1282" alt="Screen Shot 2021-05-09 at 4 56 28 PM" src="https://user-images.githubusercontent.com/44145146/117586656-82017680-b0e7-11eb-8261-be60fd573549.png">
 
-* You need to be logged in to manipulate folders and images, so create a login and access the application
+* You need to be logged in to manipulate folders and images, so first create a login to access the application
 
 <img width="1272" alt="Screen Shot 2021-05-09 at 7 06 28 PM" src="https://user-images.githubusercontent.com/44145146/117599578-0ec42880-b118-11eb-98ea-0af5c817f7bc.png">
 
