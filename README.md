@@ -36,7 +36,7 @@ To run it locally run:
 * If you get a webpacker error, run:
 
 ```bash
- $ rails new webpacker_css --webpack 
+ $ rails webpacker:install
 ```
 
 On your browser type localhost:3000 and it will display the following page:
