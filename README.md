@@ -73,7 +73,7 @@ On your browser type: "localhost:3000" and it will display the following page:
 
 * The images in production are being stored on Amazon s3
 
-* You can see this application running on production clicking by in the link below:
+* You can see this application running on production by clicking in the link below:
 
 [https://img-repo-daiane.herokuapp.com/]
 
