@@ -17,7 +17,7 @@ The images will be public.
 $ git clone git@github.com:daiaventureira/img-repo.git
 ```
 
-* Next step is to run the above commands in your terminal inside your repository img-repo:
+* Next step is to run the followings commands in your terminal inside your repository img-repo:
 
 ```bash
  $ bundle install
