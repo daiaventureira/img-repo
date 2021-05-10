@@ -42,6 +42,10 @@ To run it locally run:
  $ rails webpacker:install
 ```
 
+```bash 
+ $ rails server
+``` 
+ 
 On your browser type: "localhost:3000" and it will display the following page:
 
 <img width="1282" alt="Screen Shot 2021-05-09 at 4 56 28 PM" src="https://user-images.githubusercontent.com/44145146/117586656-82017680-b0e7-11eb-8261-be60fd573549.png">
