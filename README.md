@@ -4,7 +4,7 @@ This application is an image repository built using Ruby On Rails and Active Sto
 
 ## Requirements
 
-I assume you have ruby 3 and rails 6 installed in your machine, also you will need PostgreSql.
+I assume you have ruby 3 and rails 6 installed on your machine, also you will need PostgreSql.
 
 ## Instalation
 
