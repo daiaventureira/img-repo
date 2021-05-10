@@ -2,7 +2,7 @@
 
 This application is an image repository built using Ruby On Rails and Active Storage. 
 
-The Image Repository application has a login functionality. The user after logged in can manipulates folders by creating it, adding images and descriptions to folders, dleeting images or folders and downloading images well.
+The Image Repository application has a login functionality. The user after logged in can manipulates folders by creating it, adding images and descriptions to folders, deleting images or folders and downloading images well.
 The images as public.
 
 ## Requirements
