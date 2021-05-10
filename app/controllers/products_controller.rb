@@ -21,7 +21,7 @@ class ProductsController < ApplicationController
     def create
         @product = Product.new(product_params)
         if @product.save
-            redirect_to '/products', notice:'Image added'
+            redirect_to '/products', notice:'Folder Created!'
         else
             render :new
         end 
@@ -47,7 +47,7 @@ class ProductsController < ApplicationController
 
               end
             end
-            redirect_to '/products', notice:'Product added'
+            redirect_to '/products', notice:'Images(s) added'
           else
             render :new
           end
