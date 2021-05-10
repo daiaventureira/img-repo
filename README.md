@@ -58,9 +58,11 @@ On your browser type localhost:3000 and it will display the following page:
  
 ## Production 
 
-*This aplication its running on production deployed on heroku
-*The images are stored on Amazon s3
-*You can see this application running clicking in the link below:
+* This application was deployed to heroku 
+
+* The images in production are being stored on Amazon s3
+
+* You can see this application running on production clicking in the link below:
 
 [https://img-repo-daiane.herokuapp.com/]
 
