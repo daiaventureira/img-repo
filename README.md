@@ -14,11 +14,16 @@ First you need to clone this repository to your machine. To do so, run:
 $ git clone git@github.com:daiaventureira/img-repo.git
 ```
 
-Next step is to run the above command in your terminal inside your repository:
+Next step is to run the above commands in your terminal inside your repository img-repo:
 
 ```bash
- $ rails new webpacker_css --webpack 
+ $ bundle install
 ```
+
+```bash
+ $ rails db:setup
+```
+
 ## Usage
 
 
@@ -28,14 +33,29 @@ To run it locally run:
  $ rails server
 ```
 
+* If you get a webpacker error, run:
+
+```bash
+ $ rails new webpacker_css --webpack 
+```
+
 On your browser type localhost:3000 and it will display the following page:
 
 <img width="1282" alt="Screen Shot 2021-05-09 at 4 56 28 PM" src="https://user-images.githubusercontent.com/44145146/117586656-82017680-b0e7-11eb-8261-be60fd573549.png">
 
-You will need to be logged in so you can access the application, you can either add folders, edit folders by deleting images or add images to it or you can delete a folder. Note: this repository is public, so everybody can have access to your images.
- 
-The user password can be either recovered or changed.
+* Sign up to create a login and access the application
 
+<img width="1272" alt="Screen Shot 2021-05-09 at 7 06 28 PM" src="https://user-images.githubusercontent.com/44145146/117599578-0ec42880-b118-11eb-98ea-0af5c817f7bc.png">
+
+* Go to New Folder and add a description and image to it
+
+<img width="1437" alt="Screen Shot 2021-05-09 at 10 45 25 PM" src="https://user-images.githubusercontent.com/44145146/117599662-416e2100-b118-11eb-9b38-b8969e09392b.png">
+
+* It will redirect you to the page where all folders will be and a success message 
+
+ <img width="1437" alt="Screen Shot 2021-05-09 at 10 45 54 PM" src="https://user-images.githubusercontent.com/44145146/117599687-521e9700-b118-11eb-8b7a-f48c5f4c8148.png">
+
+ 
 ## Production 
 
 *This aplication its running on production deployed on heroku
@@ -50,15 +70,12 @@ The user password can be either recovered or changed.
 
 * Rails version: Rails 6.1.3.1
 
-* System dependencies
+* Active Storage
 
-* Configuration
+* Amazon s3
 
-* Database creation
+* Postgresql
 
- Postgresql
-
-* Database initialization
 
 ## Tests
 
